@@ -1,5 +1,29 @@
-# Llama Docs Bot
+# Llama Index Test
 
-This repository holds the content for each video the the Bottoms Up Development series with [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/).
+## requirements
 
-Each folder with a numbered prefix represents which video in the series it corresponds to. Each folder will have the same notebook and slides that were covered in the corresponding video.
+- pipenv (pip install pipenv)
+
+## getting started
+
+install dependencies
+```sh
+pipenv install
+```
+
+scope your shell in env
+```sh
+pipenv shell
+```
+
+## run jupyter notebook
+
+run the notebook
+```sh
+jupyter notebook
+```
+
+
+## astuces
+
+open ipynb files directly with vscode to work on notebook and you'll get connected to the jupyter notebook in vscode (better developer experience than in browser ;-))
